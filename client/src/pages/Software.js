@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import axios from "axios";
 // import Slider from "react-slick";
 // import FsLightbox from "fslightbox-react";
@@ -10,7 +10,7 @@ import {Link} from 'react-router-dom'
 
 function Seo() {
   // const [toggler, setToggler] = useState(false);
-  const [information, setInformation] = useState("");
+  // const [information, setInformation] = useState("");
   // const [reviews, setReviews] = useState([]);
 
   // const sliderSettings = {
@@ -41,14 +41,14 @@ function Seo() {
   //   });
   // };
 
-  useEffect(() => {
-    axios.get("/api/information").then((response) => {
-      setInformation(response.data);
+  // useEffect(() => {
+   // axios.get("/api/information").then((response) => {
+   //   setInformation(response.data);
     });
     // axios.get("/api/reviews").then((response) => {
     //   setReviews(response.data);
     // });
-  }, []);
+ // }, []);
 
   return (
     <Layout>

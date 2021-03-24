@@ -1,1 +1,13 @@
 this is the first push
+
+
+// to add all files
+git add .
+
+
+//to commit the added files
+git commit -m "first commit"
+
+
+//to push the changes to master branch
+git push origin master

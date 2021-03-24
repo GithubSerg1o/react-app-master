@@ -59,7 +59,7 @@ function Seo() {
             <div className="col-lg-6">
               <div className="mi-Serticseo">
                 <img
-                  src={information.aboutImage}
+                  src={require("../assests/Serticseo.jpg.png")}
                   alt="about"
                   // onClick={() => handleToggler(!toggler)}
                 />

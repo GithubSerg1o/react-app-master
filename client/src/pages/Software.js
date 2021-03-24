@@ -59,7 +59,7 @@ function Seo() {
             <div className="col-lg-6">
               <div className="mi-Software">
                 <img
-                  src={information.aboutImage}
+                  src={require("../assests/Software.jpg")}
                   alt="about"
                   // onClick={() => handleToggler(!toggler)}
                 />
@@ -78,7 +78,7 @@ function Seo() {
                   <span className="color-theme">Microsoft Software</span>
                 </h3>
                 <p>
-                  Bij Sertic kan Microsoft software bestellen als particulier, kantoor, partijhandelaar, groothandel of kleinhandel.
+                  Bij Sertic is het mogelijk om Microsoft software te bestellen als particulier, kantoor, partijhandelaar, groothandel of kleinhandel.
 				  Wij hebben een breed assortiment, van fysieke tot digitale producten.
                   <br/>
                   Ervaring sinds 2016 met zeer tevreden klanten!

@@ -1,5 +1,5 @@
 import React from "react";
-import axios from "axios";
+//import axios from "axios";
 // import Slider from "react-slick";
 // import FsLightbox from "fslightbox-react";
 // import * as Icon from "react-feather";

@@ -44,7 +44,7 @@ function Seo() {
   // useEffect(() => {
    // axios.get("/api/information").then((response) => {
    //   setInformation(response.data);
-    });
+   // });
     // axios.get("/api/reviews").then((response) => {
     //   setReviews(response.data);
     // });

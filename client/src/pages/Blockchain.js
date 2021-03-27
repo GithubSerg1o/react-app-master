@@ -80,7 +80,7 @@ function Seo() {
                 <p>
                   Sertic is bezig met de ontwikkeling van een nieuwe blockchain genaamd Kakucoin.
                   <br/>
-                  De website voor Kakucoin gaat spoedig de lucht in, we verwachten eind maart.
+                  De website voor Kakucoin gaat spoedig de lucht in, we verwachten eind juni.
                   Onze whitepaper zal eerder beschikbaar zijn dan de website zelf. 
                   <br/>
                   U kan de whitepaper voorafgaand opvragen via het contactformulier op deze website.

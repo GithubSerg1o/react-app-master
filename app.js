@@ -11,7 +11,7 @@ const transporter = nodemailer.createTransport(
   sendgridTransport({
     auth: {
       api_key:
-        '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'
+        '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'
     }
   })
 )
@@ -53,8 +53,8 @@ app.post('/sendmail', (req, res) => {
   const { name, email, subject, message } = req.body
   transporter
     .sendMail({
-      to: ['gorayaa66@gmail.com'],
-      from: 'contact@melliott.io',
+      to: ['klantenservice@sertic.nl'],
+      from: 'tylermerren@revisionfitnessapp.com',
       subject: subject,
       html: `<div><h4>Name : ${name}</h4><h4>Email : ${email}</h4><h4>Message : ${message}</h4></div>`
     })
